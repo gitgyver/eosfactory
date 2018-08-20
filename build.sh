@@ -12,16 +12,16 @@ EOSFactory="eosfactory"
 repository_dir="https://github.com/tokenika/$EOSFactory"
 wiki="https://github.com/tokenika/$EOSFactory/wiki"
 
-if [ ! -d .git ]; then
-    printf "%s\n\n" "
-This build script only works with sources cloned from git.
-    Please clone a new eos directory with 
-        'git clone ${repository_dir} --recursive'
-    See the wiki for instructions: ${wiki}
-    Exiting now.    
-"
-    exit 1
-fi
+#if [ ! -d .git ]; then
+#    printf "%s\n\n" "
+#This build script only works with sources cloned from git.
+#    Please clone a new eos directory with 
+#        'git clone ${repository_dir} --recursive'
+#    See the wiki for instructions: ${wiki}
+#    Exiting now.    
+#"
+#    exit 1
+#fi
 
 ##############################################################################
 #   Common parameters.
